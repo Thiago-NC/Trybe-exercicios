@@ -1,5 +1,5 @@
 //entrada
-let fruta = 'banana';
+let fruta = 'tryber';
 let frutaInvertida = '';
 
 
