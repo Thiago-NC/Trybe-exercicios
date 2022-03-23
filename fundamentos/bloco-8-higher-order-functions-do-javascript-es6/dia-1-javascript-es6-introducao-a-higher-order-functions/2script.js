@@ -5,13 +5,9 @@
 //parametro uma função que checa o numero é igual ao sorteado
 //retorno da hof deve ser uma string '"Tente novamente" ou "Parabéns você ganhou"'
 
-const sorteio = (callback) => {
-    return callback
-    
-};
+
 
 const gameNumber = 3;
-
 
 const randomNumber = () => {
     return Math.floor(Math.random(1,5)*(5+1))
@@ -27,8 +23,4 @@ const checkNumber = (gameNumber) => {
     else if (gameNumber !== teste) {
         return `Tente novamente`
     }
-     
-    
 };
-
-console.log(sorteio())
